@@ -15,6 +15,7 @@
     "emailjs-com": "^3.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "scrollreveal": "^4.0.9",
     "three": "^0.177.0"
   },
   "devDependencies": {
