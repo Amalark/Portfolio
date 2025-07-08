@@ -10,24 +10,24 @@ import Education from "./Education";
 import Certifications from "./Certfications";
 
 const MainBody = () => {
-  const sr = ScrollReveal({
-    origin: "top",
-    distance: "60px",
-    duration: 2500,
-    delay: 400,
-    reset: true, //Animations repeat
-  });
+  // const sr = ScrollReveal({
+  //   origin: "top",
+  //   distance: "60px",
+  //   duration: 2500,
+  //   delay: 400,
+  //   reset: true, //Animations repeat
+  // });
 
-  sr.reveal(".perfil");
-  sr.reveal(".contact__form");
-  sr.reveal(".education");
-  sr.reveal(".certification__item");
-  sr.reveal(".info", { origin: "left", delay: 800 });
-  sr.reveal(".skills", { origin: "left", delay: 1000 });
-  sr.reveal(".about", { origin: "right", delay: 1200 });
-  sr.reveal(".projects__card", { interval: 100 });
-  sr.reveal(".services__card", { interval: 100 });
-  sr.reveal(".experience__card", { interval: 100 });
+  // sr.reveal(".perfil");
+  // sr.reveal(".contact__form");
+  // sr.reveal(".education");
+  // sr.reveal(".certification__item");
+  // sr.reveal(".info", { origin: "left", delay: 800 });
+  // sr.reveal(".skills", { origin: "left", delay: 1000 });
+  // sr.reveal(".about", { origin: "right", delay: 1200 });
+  // sr.reveal(".projects__card", { interval: 100 });
+  // sr.reveal(".services__card", { interval: 100 });
+  // sr.reveal(".experience__card", { interval: 100 });
 
   return (
     <>
