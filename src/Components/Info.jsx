@@ -11,7 +11,7 @@ const Info = () => {
 
         <div className="info__image">
           <img
-            src="/src/assets/images/profile pic.jpg"
+            src="assets/images/profile pic.jpg"
             alt="image"
             className="info__img"
           />
