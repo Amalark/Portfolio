@@ -26,7 +26,7 @@ const experienceData = [
   {
     company: "Alhamd Alliance Trading",
     profession: "Internship — Chemical Processing Plant",
-    date: "Aug 2023 – Jan 2024",
+    date: "Jun 2021 - July 2021",
     description:
       "Witnessed product prototype testing, monitored experiments, and recorded data. Developed problem-solving skills and learned to handle high-pressure situations.",
   },
