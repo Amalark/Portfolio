@@ -33,11 +33,11 @@ const MainBody = () => {
     <>
       <div className="main">
         <Home />
-        <Education />
-        <Certifications />
+        <Experience />
         <Projects />
         <Services />
-        <Experience />
+        <Education />
+        <Certifications />
         <Contact />
         <Footer />
         <ScrollUp />

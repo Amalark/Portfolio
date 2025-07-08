@@ -7,7 +7,7 @@ const experienceData = [
     profession: "Teaching Assistant",
     date: "Aug 2024 – Jan 2025 ",
     description:
-      "upported Software Design & Analysis course. Evaluated projects and mentored students. ",
+      "Supported Software Design & Analysis course. Evaluated projects and mentored students. ",
   },
   {
     company: "FAST National University",

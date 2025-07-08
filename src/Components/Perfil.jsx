@@ -5,7 +5,7 @@ const Perfil = () => {
   return (
     <>
       <div className="perfil">
-        <div className="perfil__img">{/* <PerfilModel /> */}</div>
+        {/* <div className="perfil__img">{ <PerfilModel /> }</div> */}
         {/* <img
           src="/src/assets/images/home-perfil.png"
           alt="image"
@@ -13,7 +13,7 @@ const Perfil = () => {
         /> */}
 
         <div className="perfil__data">
-          <h1 className="perfil__name">Amal</h1>
+          <h1 className="perfil__name">Amal Abdul Rehman Khalili</h1>
           <div className="perfil__buttons">
             <a href="#projects" className="button">
               Projects

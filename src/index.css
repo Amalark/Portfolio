@@ -231,18 +231,20 @@ img {
 }
 
 .perfil__data {
-  align-self: flex-end;
+  align-self: center;
   background-color: hsla(0, 0%, 1%, 0.1);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   padding: 1.5rem 1rem;
   border-radius: 1.5rem;
   border: 2px solid hsla(0, 0%, 100%, 0.5);
+  height: 22rem;
 }
 
 .perfil__name {
   font: var(--font-regular) var(--biggest-font-size) var(--second-font);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .perfil__buttons {
@@ -593,6 +595,17 @@ img {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.projects__data {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 15rem;
 }
 
 .projects__image {
@@ -613,7 +626,7 @@ img {
 
 .projects__description {
   color: var(--text-color);
-  margin-bottom: 1.5rem;
+  margin-bottom: auto;
 }
 
 .projects__skill {

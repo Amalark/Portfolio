@@ -5,42 +5,72 @@ import ProjectsCard from "./ProjectsCard";
 const projectList = [
   {
     name: "HR Management System Web Application",
-    image: "/src/assets/images/projects-1.jpg",
+    image: "/src/assets/images/HR_Project-2.png",
     description:
-      "A full-featured HR management system with dashboards, payroll, attendance tracking, and AI-based resume matching.",
+      "A full-featured HR management system with dashboards, payroll, attendance, and AI-based resume matching.",
     skills: [
-      "/src/assets/Icons/nodejs.svg",
+      {
+        src: "/src/assets/Icons/nodejs.svg",
+        style: {
+          width: "40px",
+        },
+      },
       "/src/assets/Icons/skills-react.svg",
-      "/src/assets/Icons/express.png",
+      {
+        src: "/src/assets/Icons/express.png",
+        style: {
+          backgroundColor: "white",
+          borderRadius: "4px",
+          padding: "2px",
+        },
+      },
       "/src/assets/Icons/skills-tailwind-css.svg",
       "/src/assets/Icons/python.webp",
       "/src/assets/Icons/postgresql.svg",
     ],
-    link: "#",
+    link: "https://github.com/Amalark/HR-Management-System.git",
   },
 
   {
-    name: "Portfolio Website",
-    image: "/src/assets/images/projects-1.jpg",
-    description: "A modern portfolio built with React and Tailwind CSS.",
+    name: "Majestic Travel Web Application",
+    image: "/src/assets/images/Travel_Project-2.png",
+    description:
+      "A travel web app with booking, reviews, session management, and automated testing for seamless user experience.",
     skills: [
+      {
+        src: "/src/assets/Icons/nodejs.svg",
+        style: {
+          width: "40px",
+        },
+      },
       "/src/assets/Icons/skills-react.svg",
-      "/src/assets/Icons/skills-tailwind-css.svg",
+      {
+        src: "/src/assets/Icons/express.png",
+        style: {
+          backgroundColor: "white",
+          borderRadius: "4px",
+          padding: "2px",
+        },
+      },
+      "/src/assets/Icons/skills-css.svg",
+      "/src/assets/Icons/Oracle_SQL.svg.png",
       "/src/assets/Icons/skills-figma.svg",
+      "/src/assets/Icons/selenium-ide.png",
     ],
-    link: "#",
+    link: "https://github.com/Amalark/Travel-Website.git",
   },
   {
-    name: "Portfolio Website",
-    image: "/src/assets/images/projects-1.jpg",
-    description: "A modern portfolio built with React and Tailwind CSS.",
+    name: "Car Rental Software",
+    image: "/src/assets/images/CarRental_Final.png",
+    description:
+      "A desktop-based car booking and reservation system with CRUD operations and file handling.",
     skills: [
-      "/src/assets/Icons/skills-react.svg",
-      "/src/assets/Icons/skills-tailwind-css.svg",
-      "/src/assets/Icons/skills-figma.svg",
+      "/src/assets/Icons/java.png",
+      "/src/assets/Icons/SceneBuilderLogo.webp",
     ],
-    link: "#",
+    link: "https://github.com/Amalark/CarRentalGUI",
   },
+
   // You can add more project objects here...
 ];
 

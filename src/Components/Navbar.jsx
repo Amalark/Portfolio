@@ -3,11 +3,11 @@ import React, { useEffect } from "react";
 const Navbar = () => {
   const navbarItems = [
     { label: "Home", link: "#home", icon: "ri-home-line" },
-    { label: "Education", link: "#education", icon: "ri-graduation-cap-line" },
-    { label: "Certifications", link: "#certifications", icon: "ri-medal-line" },
+    { label: "Experience", link: "#experience", icon: "ri-honour-line" },
     { label: "Projects", link: "#projects", icon: "ri-folder-line" },
     { label: "Services", link: "#services", icon: "ri-briefcase-2-line" },
-    { label: "Experience", link: "#experience", icon: "ri-honour-line" },
+    { label: "Education", link: "#education", icon: "ri-graduation-cap-line" },
+    { label: "Certifications", link: "#certifications", icon: "ri-medal-line" },
     { label: "Contact", link: "#contact", icon: "ri-phone-line" },
   ];
 

@@ -7,14 +7,14 @@ const About = () => {
       <div className="about">
         <div className="about1">
           <h3 className="about__name">
-            Amal Khalili <b>Web Designer & Developer</b>
+            Amal, <b>Web Designer & Developer</b>
           </h3>
           <p className="about__description">
-            Located in Pakistan, currently pursuing a degree in Software
-            Engineering. With hands-on experience in front-end design, UI/UX,
-            and backend logic through multiple university and freelance
-            projects, Amal blends technical skill with design sensibility. She
-            has led and collaborated on web and blablablablablablabab
+            Based in Pakistan, currently pursuing Software Engineering. I have
+            experience in web development, UI/UX, and quality assurance through
+            university projects. I enjoy combining technical expertise with
+            creative design to deliver reliable, user-friendly, and impactful
+            software solutions.
           </p>
 
           <div className="about__social">
@@ -33,18 +33,16 @@ const About = () => {
             >
               <i class="ri-github-line"></i>
             </a>
-
-            <a href="#" target="_blank" className="about__link">
-              <i class="ri-behance-line"></i>
-            </a>
           </div>
         </div>
         <div className="about1">
-          <div className="about__image">{/* <ThreeDLogo /> */}</div>
+          <div className="about__image">
+            <ThreeDLogo />
+          </div>
 
           <p className="about__note">
-            She doesnt write messages on social networks, send me an email and
-            I'll answer you.
+            I’m not very active on social networks, but feel free to send me an
+            email, I’ll respond ASAP!
           </p>
 
           <a href="#contact" className="button">

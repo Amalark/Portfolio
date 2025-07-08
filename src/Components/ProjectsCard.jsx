@@ -17,14 +17,24 @@ const ProjectsCard = ({ name, image, description, skills, link }) => {
         <p className="projects__description">{description}</p>
 
         <div className="projects__skills">
-          {skills.map((skill, index) => (
-            <img
-              key={index}
-              src={skill}
-              alt="skill icon"
-              className="projects__skill"
-            />
-          ))}
+          {skills.map((skill, index) =>
+            typeof skill === "string" ? (
+              <img
+                key={index}
+                src={skill}
+                alt="skill icon"
+                className="projects__skill"
+              />
+            ) : (
+              <img
+                key={index}
+                src={skill.src}
+                alt="skill icon"
+                className="projects__skill"
+                style={skill.style}
+              />
+            )
+          )}
         </div>
 
         <a
