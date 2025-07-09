@@ -31,7 +31,7 @@ const Certifications = () => {
         </ul>
       </div>
 
-      <hr className="certification__divider" />
+      {/* <hr className="certification__divider" /> */}
 
       <div className="certification__group">
         <h3 className="certification__subtitle">Achievements</h3>

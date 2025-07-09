@@ -12,17 +12,26 @@ const experienceData = [
   {
     company: "FAST National University",
     profession: "Teaching Assistant",
-    date: "Aug 2024 – Jan 2025 ",
-    description:
-      "Supported Software Design & Analysis course. Evaluated projects and mentored students. ",
+    date: "Aug 2024 – Jan 2025",
+    description: (
+      <>
+        Supported <b>Software Design & Analysis</b> course. Evaluated projects
+        and mentored students.
+      </>
+    ),
   },
   {
     company: "FAST National University",
     profession: "Teaching Assistant",
-    date: "Aug 2023 – Jan 2024 ",
-    description:
-      "Assisted in a Calculus & Analytical Geometry course. Graded assignments and supported students in tutorials",
+    date: "Aug 2023 – Jan 2024",
+    description: (
+      <>
+        Assisted in a <b>Calculus & Analytical Geometry</b> course. Graded
+        assignments and supported students in tutorials.
+      </>
+    ),
   },
+
   {
     company: "Alhamd Alliance Trading",
     profession: "Internship — Chemical Processing Plant",
