@@ -3,6 +3,14 @@ import ExperienceCard from "./ExperienceCard";
 
 const experienceData = [
   {
+    company: "The Bridge of Hopes Project - FAST NUCES",
+    profession: "React Developer (Volunteer)",
+    date: "July 2025 – Present",
+    description:
+      "Redesigned admin panel UI, added live form validations, and integrated APIs for real-time data population.",
+  },
+
+  {
     company: "AWS Cloud Club - FAST NUCES",
     profession: "Co-Head of Events",
     date: "July 2025 – Present",
