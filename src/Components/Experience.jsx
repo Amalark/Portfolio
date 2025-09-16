@@ -11,11 +11,31 @@ const experienceData = [
   },
 
   {
+    company: "Foodlines.co",
+    profession: "Freelance Web Support",
+    date: "Feb 2025 – Present",
+    location: "Remote — Jeddah, Saudi Arabia",
+    description:
+      "Manage website operations, WordPress administration, and technical issue resolution.",
+  },
+
+  {
     company: "AWS Cloud Club - FAST NUCES",
     profession: "Co-Head of Events",
     date: "July 2025 – Present",
     description:
       "Leading the Events Team to organize workshops, hackathons, and flagship events for the AWS Cloud Club community. Coordinating with AWS Student Programs and mentoring team members.",
+  },
+  {
+    company: "FAST National University",
+    profession: "Teaching Assistant",
+    date: "Aug 2025 – Present",
+    description: (
+      <>
+        Supported <b>Data Structures</b> course by assisting in coding concepts,
+        grading, and student mentoring.
+      </>
+    ),
   },
   {
     company: "FAST National University",

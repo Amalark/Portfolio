@@ -6,7 +6,7 @@ const educationData = [
     degree: "BS(Software Engineering)",
     institution: "FAST National University (NUCES)",
     date: "2022 - till date",
-    cgpa: "CGPA: 3.71",
+    cgpa: "CGPA: 3.72",
     side: "right",
   },
   {

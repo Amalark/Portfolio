@@ -15,7 +15,7 @@ const Certifications = () => {
               🎓 Dean’s List (2022 – 2025)
             </h3>
             <p className="certification__desc">
-              Awarded for 5 consecutive semesters for academic excellence.
+              Awarded for 6 consecutive semesters for academic excellence.
             </p>
           </li>
           <li className="certification__item">
